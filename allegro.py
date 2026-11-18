@@ -24,8 +24,8 @@ import requests
 import re
 
 # ---------------- KONFIGURACJA ----------------
-CLIENT_ID = os.environ.get("ALLEGRO_CLIENT_ID", "96947bac30cf44ee92592572f470ab7a")
-CLIENT_SECRET = os.environ.get("ALLEGRO_CLIENT_SECRET", "Ru95TI0exLMaIypXdrx9gCkqBkAS1mQYD10Xq4K0msM3P6yXOUUwdYTuSPSD9qxk")
+CLIENT_ID = os.environ.get("ALLEGRO_CLIENT_ID", "")
+CLIENT_SECRET = os.environ.get("ALLEGRO_CLIENT_SECRET", "")
 SANDBOX = False          # True = allegro.pl.allegrosandbox.pl
 DRY_RUN = False          # True = tylko loguje, nie zmienia statusów
 TOKEN_FILE = "allegro_token.json"
