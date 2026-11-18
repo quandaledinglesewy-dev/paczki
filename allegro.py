@@ -246,7 +246,7 @@ def classify(all_codes):
         return "READY_FOR_PICKUP"
     if any(c & (IN_TRANSIT_CODES | DELIVERED_CODES) for c in all_codes):
         return "SENT"
-    return None
+    return "PROCESSING"   # jest list przewozowy, ale kurier jeszcze nie odebrał paczkie
  
 def waiting_in_locker(all_codes):
     """Zwraca, od jak dawna paczka czeka na odbiór (timedelta) albo None."""
