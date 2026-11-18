@@ -1,0 +1,6 @@
+{
+  "CLIENT_ID": "wpisz-client-id-z-allegro",
+  "CLIENT_SECRET": "wpisz-client-secret-z-allegro",
+  "SANDBOX": false,
+  "DRY_RUN": true
+}
